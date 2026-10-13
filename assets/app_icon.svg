@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="novaBg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="novaCore" x1="16" y1="12" x2="48" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#BAE6FD"/>
+    </linearGradient>
+  </defs>
+  <!-- 圆角矩阵底座 -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#novaBg)"/>
+  <!-- 外层六边形科技星环 -->
+  <path d="M32 11L49.32 21V41L32 51L14.68 41V21L32 11Z" stroke="#E0F2FE" stroke-width="2.5" stroke-linejoin="round" fill="none" opacity="0.85"/>
+  <!-- 内部拓扑连接线 -->
+  <path d="M32 11V24M49.32 21L38 27.5M49.32 41L38 34.5M32 51V38M14.68 41L26 34.5M14.68 21L26 27.5" stroke="#BAE6FD" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+  <!-- 核心能量六棱柱 -->
+  <path d="M32 23L39.79 27.5V36.5L32 41L24.21 36.5V27.5L32 23Z" fill="url(#novaCore)"/>
+  <!-- 中心脉冲点 -->
+  <circle cx="32" cy="32" r="3.2" fill="#1D4ED8"/>
+</svg>
